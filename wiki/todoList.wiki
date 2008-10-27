@@ -43,4 +43,6 @@ lars?
 ----
   * KNN demo (mnist performance as we vary the training set size)
 ----
+ * Mixture of Gaussian's class (gibbs sampling)
+----
 ----
