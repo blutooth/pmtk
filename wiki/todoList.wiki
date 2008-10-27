@@ -1,22 +1,46 @@
 = PMTK TODO LIST =
 
+----
   * Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda
-    Change logregDist interface so that the user decides when fitting, whether to use point estimation(default) or full Bayesian.
+----
+  * Change logregDist interface so that the user decides when fitting, whether to use point estimation(default) or full Bayesian.
+----
   *  Move all static demos to their own source files
+----
   *  Setup auto generation of documentation via publish
+----
   *  Setup google analytics for pmtk google code site
+----
   *  Add a delta distribution class with basic ops like mean, mode and use it with logregDist
+----
   * Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?)
+----
   * Abstract out scoring function for cross validation, add BIC functionality
+----
   * Combine all inferParams with fit methods and all postPredict with predict methods
-  * Investigate IRLS-lars as a default for L1 logreg on small problems (compare to projection - waiting to hear back from author)
+----
+  * Investigate IRLS-lars as a default for L1 logreg on small problems (compare to 
+projection - waiting to hear back from author)
+----
   * Add L1 L2 Elastic net code to linreg class
+----
   * Transformer for y-data in classification cases (or enhanced oneOfK function)
-  * Look into auto lambda generation (smallest singular value heuristic? scaling by N, lars?
+----
+  * Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
+lars?
+----
   * Implement generative classifier super class
+----
   * Naive Bayes subclass of abive
+----
   * MVN classifier subclass of above
+----
   * NB vs LR comparison demos (minka fig 5,6 - advantage of being Bayesian w.r.t n) - wrt n and d
+----
   * KNN class
+----
   * speed up dist2 function via batch processing/bsxfun
+----
   * KNN demo (mnist performance as we vary the training set size)
+----
+----
