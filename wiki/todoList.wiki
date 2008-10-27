@@ -10,7 +10,7 @@
   # Abstract out scoring function for cross validation, add BIC functionality
   # Combine all inferParams with fit methods and all postPredict with predict methods
   # Investigate IRLS-lars as a default for L1 logreg on small problems (compare to projection - waiting to hear back from author)
-  # Add L1L2 Elastic net code to linreg class
+  # Add L1 L2 Elastic net code to linreg class
   # Transformer for y-data in classification cases (or enhanced oneOfK function)
   # Look into auto lambda generation (smallest singular value heuristic? scaling by N, lars?
   # Implement generative classifier super class
