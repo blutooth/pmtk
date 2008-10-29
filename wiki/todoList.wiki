@@ -4,9 +4,9 @@ This page stores a running list of current high priority development items.
 
 
 ----
-Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda
+~~Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda~~
 ----
-Change logregDist interface so that the user decides when fitting, whether to use point estimation(default) or full Bayesian.
+~~Change logregDist interface so that the user decides when fitting, whether to use point estimation(default) or full Bayesian.~~
 ----
 Move all static demos to their own source files
 ----
