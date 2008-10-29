@@ -12,11 +12,11 @@ Move all static demos to their own source files
 ----
 Setup auto generation of documentation via publish
 ----
-Setup google analytics for pmtk google code site
+~~Setup google analytics for pmtk google code site~~
 ----
-Add a delta distribution class with basic ops like mean, mode and use it with logregDist
+~~Add a delta distribution class with basic ops like mean, mode and use it with logregDist~~
 ----
-Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?)
+Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
 ----
 Abstract out scoring function for cross validation, add BIC functionality
 ----
