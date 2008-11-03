@@ -8,9 +8,13 @@ This page stores a running list of current high priority development items.
 ----
 ~~Change logregDist interface so that the user decides when fitting, whether to use point estimation(default) or full Bayesian.~~
 ----
-Move all static demos to their own source files
+~Move all static demos to their own source files~
 ----
-Setup auto generation of documentation via publish
+~Setup auto generation of documentation via publish~
+----
+Improve the auto generated documentation
+----
+Remove @ directories from PMTK (this will break viewClassTree, will need to rewrite)
 ----
 ~~Setup google analytics for pmtk google code site~~
 ----
