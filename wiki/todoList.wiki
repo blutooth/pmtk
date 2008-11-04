@@ -16,6 +16,9 @@ This page stores a running list of current high priority development items.
 ----
 ~~Remove @ directories from PMTK~~
 ----
+----
+~~Remove Private Directories~~
+----
 rewrite viewClassTree to work with the new @less naming convention
 ----
 ~~Setup google analytics for pmtk google code site~~
