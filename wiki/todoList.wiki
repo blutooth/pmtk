@@ -12,7 +12,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Setup auto generation of documentation via publish~~
 ----
-Improve the auto generated documentation
+~~Improve the auto generated documentation~~
 ----
 Remove @ directories from PMTK (this will break viewClassTree, will need to rewrite)
 ----
