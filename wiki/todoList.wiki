@@ -25,6 +25,8 @@ rewrite viewClassTree to work with the new @less naming convention
 ----
 ~~Add a delta distribution class with basic ops like mean, mode and use it with logregDist~~
 ----
+Simplify naming conventions
+----
 Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
 ----
 Abstract out scoring function for cross validation, add BIC functionality
