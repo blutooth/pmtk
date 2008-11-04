@@ -14,7 +14,9 @@ This page stores a running list of current high priority development items.
 ----
 ~~Improve the auto generated documentation~~
 ----
-Remove @ directories from PMTK (this will break viewClassTree, will need to rewrite)
+~~Remove @ directories from PMTK~~
+----
+rewrite viewClassTree to work with the new @less naming convention
 ----
 ~~Setup google analytics for pmtk google code site~~
 ----
