@@ -16,6 +16,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Remove @ directories from PMTK~~
 ----
+~~Vectorize mkSymmetric function~~
 ----
 ~~Remove Private Directories~~
 ----
@@ -25,31 +26,29 @@ This page stores a running list of current high priority development items.
 ----
 ~~Add a delta distribution class with basic ops like mean, mode and use it with logregDist~~
 ----
-Simplify naming conventions
-----
-Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
-----
-Abstract out scoring function for cross validation, add BIC functionality
+Simplify naming conventions --> logregDist -> logreg etc
 ----
 Combine all inferParams with fit methods and all postPredict with predict methods
 ----
-Investigate IRLS-lars as a default for L1 logreg on small problems (compare to 
-projection - waiting to hear back from author)
+Abstract out scoring function for cross validation, add BIC functionality
 ----
-Add L1 L2 Elastic net code to linreg class
-----
-Transformer for y-data in classification cases (or enhanced oneOfK function)
-----
-Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
-lars?
+Enhanced OneOfK function to automatically tranform y classification data to the right format
 ----
 Implement generative classifier super class
 ----
-Naive Bayes subclass of abive
+Naive Bayes subclass of above
 ----
 MVN classifier subclass of above
 ----
-NB vs LR comparison demos (minka fig 5,6 - advantage of being Bayesian w.r.t n) - wrt n and d
+Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
+----
+Add L1 L2 Elastic net code to linreg class
+----
+Write a script to autogenerate an external source table:
+filename      url      author      modified
+----
+Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
+lars?
 ----
 KNN class
 ----
