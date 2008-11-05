@@ -30,7 +30,7 @@ This page stores a running list of current high priority development items.
 ----
 Naming convention changes: capitalize class names; add Dist to the end of the graphical model classes, use mix prefix for mixture models
 ----
-Remove deltaDist class and use constDist class instead.
+~~Remove deltaDist class and use constDist class instead.~~
 ----
 ~~Modify viewClassTree to use short names, e.g. remove Dist from name~~
 ----
