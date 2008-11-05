@@ -26,7 +26,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Add a delta distribution class with basic ops like mean, mode and use it with logregDist~~
 ----
-Exclude trivial functions from PMTK documentation list
+~~Exclude trivial functions from PMTK documentation list~~
 ----
 Simplify naming conventions --> logregDist -> logreg etc
 ----
