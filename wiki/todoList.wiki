@@ -32,7 +32,7 @@ Naming convention changes: capitalize class names; add Dist to the end of the gr
 ----
 Remove deltaDist class and use constDist class instead.
 ----
-Modify viewClassTree to use short names, e.g. remove Dist from name
+~~Modify viewClassTree to use short names, e.g. remove Dist from name~~
 ----
 Combine all inferParams with fit methods and all postPredict with predict methods
 ----
