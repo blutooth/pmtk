@@ -64,5 +64,5 @@ KNN demo (mnist performance as we vary the training set size)
 ----
 Mixture of Gaussian's class (gibbs sampling)
 ----
-
+Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
