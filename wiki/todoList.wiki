@@ -36,6 +36,8 @@ This page stores a running list of current high priority development items.
 ----
 ~~Modify Logregdist predict function to return a single argument, either a discretedist or a Sampledist. Fixed all demos that depended on this change. Other minor interface changes to predict.~~
 ----
+Modify Linregdist predict interface - remove 'exact' , 'plugin' option
+----
 Combine all inferParams with fit methods and all postPredict with predict methods
 ----
 Make DiscreteDist a subclass of MultinomDist
