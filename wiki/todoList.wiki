@@ -34,7 +34,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Modify viewClassTree to use short names, e.g. remove Dist from name~~
 ----
-~~Modify LogregDist predict function to return a single argument, either a discreteDist or a SampleDist. Fixed all demos that depended on this change. Other minor interface changes to predict.~~
+~~Modify Logregdist predict function to return a single argument, either a discretedist or a SampleDist. Fixed all demos that depended on this change. Other minor interface changes to predict.~~
 ----
 Combine all inferParams with fit methods and all postPredict with predict methods
 ----
