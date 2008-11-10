@@ -64,13 +64,13 @@ filename      url      author      modified
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?
 ----
+Mixture of Gaussian's class (gibbs sampling)
+----
 KNN class
 ----
 speed up dist2 function via batch processing/bsxfun
 ----
 KNN demo (mnist performance as we vary the training set size)
-----
-Mixture of Gaussian's class (gibbs sampling)
 ----
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
