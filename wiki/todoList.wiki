@@ -74,3 +74,5 @@ KNN demo (mnist performance as we vary the training set size)
 ----
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
+Solution for representing a product of vector distributions
+----
