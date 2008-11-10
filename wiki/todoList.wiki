@@ -28,7 +28,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Exclude trivial functions from PMTK documentation list~~
 ----
-Naming convention changes: capitalize class names; add Dist to the end of the graphical model classes, use mix prefix for mixture models
+~~Naming convention changes: capitalize class names; add Dist to the end of the graphical model classes, use mix prefix for mixture models~~
 ----
 ~~Remove deltaDist class and use constDist class instead.~~
 ----
@@ -48,7 +48,7 @@ MVN classifier subclass of above
 ----
 Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
 ----
-Add L1 L2 Elastic net code to linreg class
+~~Add L1 L2 Elastic net code to linreg class~~
 ----
 Write a script to autogenerate an external source table:
 filename      url      author      modified
