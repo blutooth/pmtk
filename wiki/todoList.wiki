@@ -36,6 +36,8 @@ This page stores a running list of current high priority development items.
 ----
 Combine all inferParams with fit methods and all postPredict with predict methods
 ----
+Make DiscreteDist a subclass of MultinomDist
+----
 Abstract out scoring function for cross validation, add BIC functionality
 ----
 Enhanced OneOfK function to automatically tranform y classification data to the right format
