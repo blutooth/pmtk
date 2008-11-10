@@ -42,7 +42,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Make Discretedist a subclass of Multinomdist~~
 ----
-Debug graphClassDemo and ggmBICdemo 
+~~Debug graphClassDemo and ggmBICdemo~~
 ----
 Abstract out scoring function for cross validation, add BIC functionality
 ----
@@ -77,4 +77,6 @@ KNN demo (mnist performance as we vary the training set size)
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 Solution for representing a product of vector distributions
+----
+Comment demos and classes
 ----
