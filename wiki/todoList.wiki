@@ -38,7 +38,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Modify Linregdist predict interface - remove 'exact' , 'plugin' option~~
 ----
-Combine all inferParams with fit methods and all postPredict with predict methods
+~~Combine all inferParams with fit methods and all postPredict with predict methods~~
 ----
 Make DiscreteDist a subclass of MultinomDist
 ----
