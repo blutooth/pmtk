@@ -52,6 +52,8 @@ Implement generative classifier super class
 ----
 Naive Bayes subclass of above
 ----
+Apply NB to binary MNIST and plot class confusion matrix - compare to KNN when done
+----
 MVN classifier subclass of above
 ----
 Predict with no specified test examples X should return an unconditional predictive distribution
