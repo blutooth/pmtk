@@ -46,7 +46,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Write a general purpose model selection class, which abstracts scoring and searching~~
 ----
-Enhanced OneOfK function to automatically tranform y classification data to the right format
+~~Enhanced OneOfK function to automatically tranform y classification data to the right format~~
 ----
 Implement generative classifier super class
 ----
