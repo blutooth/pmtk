@@ -44,7 +44,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Debug graphClassDemo and ggmBICdemo~~
 ----
-Abstract out scoring function for cross validation, add BIC functionality
+~~Write a general purpose model selection class, which abstracts scoring and searching~~
 ----
 Enhanced OneOfK function to automatically tranform y classification data to the right format
 ----
