@@ -48,9 +48,9 @@ This page stores a running list of current high priority development items.
 ----
 ~~Enhanced OneOfK function to automatically tranform y classification data to the right format~~
 ----
-Implement generative classifier super class
+Implement generative classifier super class (Basically done - just comments and a few tweaks)
 ----
-Naive Bayes subclass of above
+Naive Bayes subclass of above (Basically done - just comments / examples)
 ----
 Apply NB to binary MNIST and plot class confusion matrix - compare to KNN when done
 ----
@@ -68,13 +68,19 @@ filename      url      author      modified
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?
 ----
-Mixture of Gaussian's class (gibbs sampling)
+Mixture of Gaussian's class with EM
 ----
 KNN class
 ----
 speed up dist2 function via batch processing/bsxfun
 ----
 KNN demo (mnist performance as we vary the training set size)
+----
+Gibbs and variational EM for GMMs
+----
+HMMs (port Kevin's code to PMTK)
+----
+PMTK GUI proof of concept
 ----
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
