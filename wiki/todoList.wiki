@@ -58,7 +58,7 @@ MVN classifier subclass of above
 ----
 Predict with no specified test examples X should return an unconditional predictive distribution
 ----
-Finish SVM vs logreg demo (need to find a faster way to perform cv with L1 - maybe emlmex of L1GeneralProjection.m ?) Tried to get emlmex working with L1Projection but may not be possible. 
+Finish SVM vs logreg demo 
 ----
 ~~Add L1 L2 Elastic net code to linreg class~~
 ----
