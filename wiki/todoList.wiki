@@ -48,7 +48,7 @@ This page stores a running list of current high priority development items.
 ----
 ~~Enhanced OneOfK function to automatically tranform y classification data to the right format~~
 ----
-Don't store models twice in model selection class (store sorted indices instead)
+~~Don't store models twice in model selection class (store sorted indices instead)~~
 ----
 Implement generative classifier super class (Basically done - just comments and a few tweaks)
 ----
@@ -62,7 +62,7 @@ MVN classifier subclass of above
 ----
 Predict for unconditional distributions (i.e. predict target nodes)
 ----
-Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up Model selection demos that use this (also rename test function to predict function)
+Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up demos that use this.
 ----
 Finish SVM vs logreg demo 
 ----
