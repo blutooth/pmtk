@@ -52,6 +52,8 @@ Don't store models twice in model selection class (store sorted indices instead)
 ----
 Implement generative classifier super class (Basically done - just comments and a few tweaks)
 ----
+PCA Transformer Class
+----
 Naive Bayes subclass of above (Basically done - just comments / examples)
 ----
 Apply NB to binary MNIST and plot class confusion matrix - compare to KNN when done
