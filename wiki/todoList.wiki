@@ -56,7 +56,9 @@ Apply NB to binary MNIST and plot class confusion matrix - compare to KNN when d
 ----
 MVN classifier subclass of above
 ----
-Predict with no specified test examples X should return an unconditional predictive distribution
+Predict for unconditional distributions (i.e. predict target nodes)
+----
+Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up Model selection demos that use this (also rename test function to predict function)
 ----
 Finish SVM vs logreg demo 
 ----
@@ -87,4 +89,10 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 Solution for representing a product of vector distributions
 ----
 Comment demos and classes
+----
+Demo custom search function for Model Selection class
+----
+rewrite demo Post Models Exhaustive using ModelSelection class
+----
+Make sure prob dist vectorization semantics is consistent throughout
 ----
