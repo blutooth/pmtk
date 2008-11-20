@@ -56,7 +56,7 @@ Implement generative classifier super class (Basically done - just comments and 
 ----
 Naive Bayes subclass of above (Basically done - just comments / examples)
 ----
-Apply NB to binary MNIST and plot class confusion matrix - compare to KNN when done
+~~Apply NB to binary MNIST and plot class confusion matrix~~
 ----
 MVN classifier subclass of above
 ----
