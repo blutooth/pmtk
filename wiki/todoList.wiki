@@ -2,6 +2,60 @@
 
 This page stores a running list of current high priority development items.
 
+----
+Refactor PMTK to remove VecDist,ScalarDist and MatrixDist superclasses
+----
+Add ProductDist super class and subclasses as needed to handle vectorized
+distributions - don't use non product distributions in this way anymore. 
+----
+Use get interceptors for distribution parameters
+----
+Add default marginal() support in probDist
+----
+Replace constDist usage with get interceptors
+----
+Refactor generative classifiers to use the productDist objects instead - including NaiveBayesBernoulliDist, NaiveBayesGaussDist, MvnClassifierDist
+----
+Predict for unconditional distributions (i.e. predict target nodes)
+----
+Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up demos that use this.
+----
+Mixture of Gaussian's class with EM
+----
+Gibbs and variational EM for GMMs
+----
+HMMs (port Kevin's code to PMTK)
+----
+PMTK GUI proof of concept
+----
+Add fit/predict interface to Model Selection class.
+----
+rewrite demo Post Models Exhaustive using ModelSelection class
+----
+Demo custom search function for Model Selection class
+----
+Prepare Demos slides and code for NIPS talk
+----
+Comment demos and classes
+----
+Finish SVM vs logreg demo 
+----
+Write a script to autogenerate an external source table:
+filename      url      author      modified
+----
+Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
+lars?
+----
+KNN class
+----
+speed up dist2 function via batch processing/bsxfun
+----
+KNN demo (mnist performance as we vary the training set size)
+----
+Look into running compiled matlab on <http://aws.amazon.com/ec2/>
+----
+
+*completed items*
 
 ----
 ~~Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda~~
@@ -50,53 +104,12 @@ This page stores a running list of current high priority development items.
 ----
 ~~Don't store models twice in model selection class (store sorted indices instead)~~
 ----
-Implement generative classifier super class (Basically done - just comments and a few tweaks)
-----
 ~~PCA Transformer Class~~
-----
-Naive Bayes subclass of above (Basically done - just comments / examples)
-----
-~~Apply NB to binary MNIST and plot class confusion matrix~~
-----
-MVN classifier subclass of above
-----
-Predict for unconditional distributions (i.e. predict target nodes)
-----
-Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up demos that use this.
-----
-Finish SVM vs logreg demo 
 ----
 ~~Add L1 L2 Elastic net code to linreg class~~
 ----
-Write a script to autogenerate an external source table:
-filename      url      author      modified
+~~Apply NB to binary MNIST and plot class confusion matrix~~
 ----
-Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
-lars?
+~~Solution for representing a product of vector distributions: Product Dist!~~
 ----
-Mixture of Gaussian's class with EM
-----
-KNN class
-----
-speed up dist2 function via batch processing/bsxfun
-----
-KNN demo (mnist performance as we vary the training set size)
-----
-Gibbs and variational EM for GMMs
-----
-HMMs (port Kevin's code to PMTK)
-----
-PMTK GUI proof of concept
-----
-Look into running compiled matlab on <http://aws.amazon.com/ec2/>
-----
-Solution for representing a product of vector distributions
-----
-Comment demos and classes
-----
-Demo custom search function for Model Selection class
-----
-rewrite demo Post Models Exhaustive using ModelSelection class
-----
-Make sure prob dist vectorization semantics is consistent throughout
-----
+~~Make sure prob dist vectorization semantics is consistent throughout: taken care of by Product Dist~~
