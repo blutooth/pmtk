@@ -55,7 +55,7 @@ KNN demo (mnist performance as we vary the training set size)
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 
-*completed items*
+*recently completed items*
 
 ----
 ~~Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda~~
