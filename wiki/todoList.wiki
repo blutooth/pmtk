@@ -1,6 +1,8 @@
 = PMTK TODO LIST =
 
-This page stores a running list of current high priority development items.
+*This page stores a running list of current high priority development items.*
+
+
 
 ----
 Refactor PMTK to remove VecDist,ScalarDist and MatrixDist superclasses
@@ -55,7 +57,8 @@ KNN demo (mnist performance as we vary the training set size)
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 ----
-= recently completed items =
+
+*recently completed items*
 
 ----
 ~~Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda~~
