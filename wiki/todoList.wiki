@@ -20,7 +20,7 @@ Refactor generative classifiers to use the productDist objects instead - includi
 ----
 Predict for unconditional distributions (i.e. predict target nodes)
 ----
-Remove logprob from conditional models, use e.g. discrete dist logprob instead. Fix up demos that use this.
+re-evaluate logprob for conditional models, e.g. Logreg
 ----
 Mixture of Gaussian's class with EM
 ----
