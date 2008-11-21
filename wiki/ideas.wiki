@@ -10,3 +10,5 @@ betaProdDist,...
 (4)remove VecDist and MatrixDist and ScalarDist 
 
 (5) ConstDist not necessary anymore
+
+(6) Use handle SharedParam object for tied parameters
