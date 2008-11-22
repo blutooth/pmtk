@@ -5,7 +5,7 @@
 
 
 ----
-Refactor PMTK to remove VecDist,ScalarDist and MatrixDist superclasses
+Refactor PMTK to remove VecDist,~~ScalarDist and MatrixDist~~ superclasses
 ----
 Add ProductDist super class and subclasses as needed to handle vectorized
 distributions - don't use non product distributions in this way anymore. 
