@@ -3,11 +3,13 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-HMMs (port Kevin's code to PMTK)
+HMMs (port Kevin's code to PMTK) (Make only one class)
 ----
 HMM Casino demo
 ----
-HMM speech recognition demos
+HMM speech recognition demos (use generative models framework)
+----
+implement the equation for "gamma2" using eqn 13.109
 ----
 Refactor PMTK to remove VecDist,~~ScalarDist and MatrixDist~~ superclasses
 ----
