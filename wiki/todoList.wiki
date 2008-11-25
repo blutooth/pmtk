@@ -2,8 +2,12 @@
 
 *This page stores a running list of current high priority development items.*
 
-
-
+----
+HMMs (port Kevin's code to PMTK)
+----
+HMM Casino demo
+----
+HMM speech recognition demos
 ----
 Refactor PMTK to remove VecDist,~~ScalarDist and MatrixDist~~ superclasses
 ----
@@ -25,8 +29,6 @@ re-evaluate logprob for conditional models, e.g. Logreg
 Mixture of Gaussian's class with EM
 ----
 Gibbs and variational EM for GMMs
-----
-HMMs (port Kevin's code to PMTK)
 ----
 PMTK GUI proof of concept
 ----
