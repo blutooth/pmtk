@@ -13,6 +13,8 @@ implement the equation for "gamma2" using eqn 13.109
 ----
 Refactor PMTK to remove VecDist,~~ScalarDist and MatrixDist~~ superclasses
 ----
+Rename ndims method to ndimensions
+----
 Add ProductDist super class and subclasses as needed to handle vectorized
 distributions - don't use non product distributions in this way anymore. 
 ----
