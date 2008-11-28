@@ -5,13 +5,13 @@
 ----
 HMMs (port Kevin's code to PMTK) (Make only one class)
 ----
+Make TrellisDist NonParmDist class
+----
 HMM Casino demo
 ----
 HMM speech recognition demos (use generative models framework)
 ----
 implement the equation for "gamma2" using eqn 13.109
-----
-Refactor PMTK to remove VecDist,~~ScalarDist and MatrixDist~~ superclasses
 ----
 Rename ndims method to ndimensions
 ----
@@ -122,3 +122,8 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ~~Solution for representing a product of vector distributions: Product Dist!~~
 ----
 ~~Make sure prob dist vectorization semantics is consistent throughout: taken care of by Product Dist~~
+----
+~~Add NonParamDist and ParamDist super classes~~
+----
+~~Refactor PMTK to remove VecDist,ScalarDist and MatrixDist superclasses~~
+----
