@@ -16,7 +16,11 @@ implement the equation for "gamma2" using eqn 13.109
 Add ProductDist super class and subclasses as needed to handle vectorized
 distributions - don't use non product distributions in this way anymore. 
 ----
-Use get interceptors for distribution parameters
+Use get interceptors for distribution parameters - each distribution has a 
+params field, storing the parameters of the model. Calling m.params returns
+either a predefined joint distribution like NIG or a product dist in the case
+that the parameters factor. We want to support name driven access like m.params.mu
+and have it return the marginal distribution on mu. 
 ----
 Add default marginal() support in probDist
 ----
@@ -41,6 +45,12 @@ rewrite demo Post Models Exhaustive using ModelSelection class
 Demo custom search function for Model Selection class
 ----
 Prepare Demos slides and code for NIPS talk
+----
+latex table where each row is one of the classes we have,
+and we have columsn specifiying if each model defines X, Y, Z (and
+what dimensionality),
+and what the various fit/ predict methods do, and what optional args
+they support.
 ----
 Comment demos and classes
 ----
