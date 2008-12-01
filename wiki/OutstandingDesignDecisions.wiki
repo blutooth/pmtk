@@ -1,0 +1,3 @@
+# List of outstanding PMTK design decisions
+
+(1) Should mcmc numInt etc inherit from probdist? 
