@@ -12,17 +12,20 @@
 
 (3) NIPS slides and Demos for talk
 
-(4) ModelDistribution class + example
+(4) Generative Model class needs to be tweaked a bit to work with the new productDist classes. 
 
-(5) Mixture Dists
+(5) ModelDistribution class + example
+
+(6) Mixture Dists with mixutre of Gaussians example
+
+(7) Comment classes as time available
 
 ----
 HMM speech recognition demos (use generative models framework)
 ----
-implement the equation for "gamma2" using eqn 13.109
+HMM - fitting fully observed data & trellis prediction of future data
 ----
-Add ProductDist super class and subclasses as needed to handle vectorized
-distributions - don't use non product distributions in this way anymore. 
+implement the equation for "gamma2" using eqn 13.109
 ----
 Use get interceptors for distribution parameters - each distribution has a 
 params field, storing the parameters of the model. Calling m.params returns
@@ -32,13 +35,9 @@ and have it return the marginal distribution on mu.
 ----
 Add default getParams() support in probDist
 ----
-Replace constDist usage with get interceptors
-----
 Refactor generative classifiers to use the productDist objects instead - including NaiveBayesBernoulliDist, NaiveBayesGaussDist, MvnClassifierDist
 ----
 Predict for unconditional distributions (i.e. predict target nodes)
-----
-re-evaluate logprob for conditional models, e.g. Logreg
 ----
 Mixture of Gaussian's class with EM
 ----
@@ -150,3 +149,6 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ~~Make TrellisDist NonParmDist class~~
 ----
 ~~HMM Casino demo~~
+----
+~~Add ProductDist super class and subclasses as needed to handle vectorized
+distributions - don't use non product distributions in this way anymore.~~
