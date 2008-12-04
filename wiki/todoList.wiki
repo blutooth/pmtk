@@ -17,12 +17,6 @@
 (5) Mixture Dists
 
 ----
-HMMs (port Kevin's code to PMTK) (Make only one class)
-----
-Make TrellisDist NonParmDist class
-----
-HMM Casino demo
-----
 HMM speech recognition demos (use generative models framework)
 ----
 implement the equation for "gamma2" using eqn 13.109
@@ -151,3 +145,8 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 ~~Rename ndims method to ndimensions~~
 ----
+~~HMMs (port Kevin's code to PMTK) (Make only one class)~~
+----
+~~Make TrellisDist NonParmDist class~~
+----
+~~HMM Casino demo~~
