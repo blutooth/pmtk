@@ -2,6 +2,16 @@
 
 *This page stores a running list of current high priority development items.*
 
+
+
+*Before NIPS*
+
+(1) Consistent interface (params field, getparams, common fit methods, make demos work)
+(2) Latex table of models and operations + some interface specs
+(3) NIPS slides and Demos for talk
+(4) ModelDistribution class + example
+(5) Mixture Dists
+
 ----
 HMMs (port Kevin's code to PMTK) (Make only one class)
 ----
@@ -22,7 +32,7 @@ either a predefined joint distribution like NIG or a product dist in the case
 that the parameters factor. We want to support name driven access like m.params.mu
 and have it return the marginal distribution on mu. 
 ----
-Add default marginal() support in probDist
+Add default getParams() support in probDist
 ----
 Replace constDist usage with get interceptors
 ----
