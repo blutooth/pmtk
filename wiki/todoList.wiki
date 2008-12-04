@@ -7,9 +7,13 @@
 *Before NIPS*
 
 (1) Consistent interface (params field, getparams, common fit methods, make demos work)
+
 (2) Latex table of models and operations + some interface specs
+
 (3) NIPS slides and Demos for talk
+
 (4) ModelDistribution class + example
+
 (5) Mixture Dists
 
 ----
