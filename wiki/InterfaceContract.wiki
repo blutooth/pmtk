@@ -11,10 +11,7 @@ Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(mar
 
 Suppose we have a joint distribution over both mu and Sigma in the mvn case. The user is disallowed from typing m.params.mu since it is ambiguous as to whether he or she wants the marginal distribution over mu, (an mvtdist) or the mu parameter of the mvninvwishartdist. No warning is issued if the usage is unambiguous. 
 
-
-getParams always returns point estimates
-marginal  always returns distributions, (however, this could be Constdist)
-
+getParams(obj,name) == obj.params.name except that getParams is always allowed
 
 *fit method*
 
