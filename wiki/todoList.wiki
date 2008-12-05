@@ -10,7 +10,7 @@
 
 (2) Latex table of models and operations + some interface specs
 
-(3) NIPS slides and Demos for talk (By Sunday)
+(3) NIPS slides and Demos for talk (By Sunday) (graphlayout demo)
 
 (4) Generative Model class needs to be tweaked a bit to work with the new productDist classes. 
 
