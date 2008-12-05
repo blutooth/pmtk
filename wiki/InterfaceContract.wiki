@@ -1,0 +1,18 @@
+
+*Obtaining Parameters*
+
+m.params always returns a distribution over all of the model parameters: these may be
+stored as a product of const dists if they are only point estimates. If the distributions factor, these are stored as a product dist. If not, m.params is a single distribution, e.g. an mvninvwishartdist. 
+
+
+m.params.paramname returns the distribution over the parameter paramname. If this is a const dist, it is automatically unwrapped.
+
+
+Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(m.params.mu). 
+However, if a joint distribution is defined over both mu and sigma, then a warning is issued. The user must call, e.g. mode(marginal(m.params,'mu')) explicitly. 
+
+
+*fit method*
+
+
+
