@@ -6,9 +6,8 @@ stored as a product of const dists if they are only point estimates. If the dist
 
 m.params.paramname returns the distribution over the parameter paramname. If this is a const dist, it is automatically unwrapped.
 
+Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(marginal(m.params,'mu'))
 
-Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(m.params.mu). 
-However, if a joint distribution is defined over both mu and sigma, then a warning is issued. The user must call, e.g. mode(marginal(m.params,'mu')) explicitly. 
 
 Suppose we have a joint distribution over both mu and Sigma in the mvn case. The user is disallowed from typing m.params.mu since it is ambiguous as to whether he or she wants the marginal distribution over mu, (an mvtdist) or the mu parameter of the mvninvwishartdist. No warning is issued if the usage is unambiguous. 
 
