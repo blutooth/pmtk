@@ -11,8 +11,7 @@ Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(m.p
 However, if a joint distribution is defined over both mu and sigma, then a warning is issued. The user must call, e.g. mode(marginal(m.params,'mu')) explicitly. 
 
 Suppose we have a joint distribution over both mu and Sigma in the mvn case. The user is disallowed from typing m.params.mu since it is ambiguous as to whether he or she wants the marginal distribution over mu, (an mvtdist) or the mu parameter of the mvninvwishartdist. 
-This syntax is only allowed in the case that the distribution over parameters factorizes, i.e. when m.params is a productDist. We enforce this via the get.params interceptor in the ParamDist superclass, (not to be confused with the getParams method). 
+This syntax is only allowed in the case that the distribution over parameters factorizes, i.e. when m.params is a productDist. 
 
 
 *fit method*
-
