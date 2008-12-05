@@ -12,3 +12,15 @@ Calling e.g. m.mu directly returns a point estimate of mu, specifically mode(mar
 Suppose we have a joint distribution over both mu and Sigma in the mvn case. The user is disallowed from typing m.params.mu since it is ambiguous as to whether he or she wants the marginal distribution over mu, (an mvtdist) or the mu parameter of the mvninvwishartdist. No warning is issued if the usage is unambiguous. 
 
 *fit method*
+
+fit should support the following string options:
+
+'suffStat'     - pass in sufficient stats made by mkSuffStat() instead of data
+
+'data'         - the data to fit with if only one kind
+
+'inputData'  
+
+'outputData'   - if there are two kinds of data, e.g. X,y in LinregDist
+
+'prior'        - a prior on the parameters of the distribution. 
