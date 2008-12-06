@@ -26,3 +26,9 @@ fit should support the following string options:
 'outputData'   - if there are two kinds of data, e.g. X,y in LinregDist
 
 'prior'        - a prior on the parameters of the distribution. 
+
+
+*predict method*
+
+predict method for unconditional densities should return posterior predictive distribution. This is just the object itself if it was fit via map or mle. 
+
