@@ -32,3 +32,7 @@ fit should support the following string options:
 
 predict method for unconditional densities should return posterior predictive distribution. This is just the object itself if it was fit via map or mle. 
 
+
+*other*
+
+All ProbDist objects can be created, (empty) without passing in any parameters
