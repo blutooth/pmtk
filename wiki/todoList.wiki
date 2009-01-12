@@ -5,25 +5,15 @@
 ----
 Mixture Distributions (fit via EM)
 ----
-HMM - fitting fully observed data & trellis prediction of future data
+HMM - Refactor to use inference engine instead of trellis dist
 ----
 implement the equation for "gamma2" using eqn 13.109
 ----
-Refactor generative classifiers to use the productDist objects instead - including NaiveBayesBernoulliDist, NaiveBayesGaussDist, MvnClassifierDist
-----
-Predict for unconditional distributions (i.e. predict target nodes)
-----
-Gibbs and variational EM for GMMs
-----
-PMTK GUI proof of concept
+Naive Bayes Demos
 ----
 Demo custom search function for Model Dist class
 ----
-latex table where each row is one of the classes we have,
-and we have columsn specifiying if each model defines X, Y, Z (and
-what dimensionality),
-and what the various fit/ predict methods do, and what optional args
-they support.
+Gibbs and variational EM for GMMs (Cody)
 ----
 Comment demos and classes
 ----
@@ -40,6 +30,7 @@ KNN demo (mnist performance as we vary the training set size)
 ----
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
+PMTK GUI proof of concept
 ----
 
 *recently completed items*
