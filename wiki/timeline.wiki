@@ -1,4 +1,0 @@
-November 30th - consistent interface ready for NIPS
-
-
-December 3rd  - draft of slides
