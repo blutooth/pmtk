@@ -2,26 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 
-
-
-*Before NIPS*
-
-(1) Consistent interface (params field, getparams, common fit methods, make demos work)
-
-(2) Latex table of models and operations + some interface specs
-
-(3) NIPS slides and Demos for talk (By Sunday) (graphlayout demo)
-
-(4) Generative Model class needs to be tweaked a bit to work with the new productDist classes. 
-
-(5) ModelDistribution class + example
-
-(6) Mixture Dists with mixutre of Gaussians example
-
-(7) Comment classes as time available
-
-----
-
 ----
 HMM - fitting fully observed data & trellis prediction of future data
 ----
@@ -37,9 +17,7 @@ Gibbs and variational EM for GMMs
 ----
 PMTK GUI proof of concept
 ----
-Demo custom search function for Model Selection class
-----
-Prepare Demos slides and code for NIPS talk
+Demo custom search function for Model Dist class
 ----
 latex table where each row is one of the classes we have,
 and we have columsn specifiying if each model defines X, Y, Z (and
@@ -50,9 +28,6 @@ they support.
 Comment demos and classes
 ----
 Finish SVM vs logreg demo 
-----
-Write a script to autogenerate an external source table:
-filename      url      author      modified
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?
@@ -147,3 +122,7 @@ distributions - don't use non product distributions in this way anymore.~~
 ----
 ~~rewrite demo Post Models Exhaustive using ModelSelection class~~
 ----
+~~Prepare Demos slides and code for NIPS talk~~
+----
+~~Write a script to autogenerate an external source table:
+filename      url      author      modified~~
