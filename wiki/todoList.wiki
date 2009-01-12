@@ -3,6 +3,8 @@
 *This page stores a running list of current high priority development items.*
 
 ----
+Mixture Distributions (fit via EM)
+----
 HMM - fitting fully observed data & trellis prediction of future data
 ----
 implement the equation for "gamma2" using eqn 13.109
@@ -10,8 +12,6 @@ implement the equation for "gamma2" using eqn 13.109
 Refactor generative classifiers to use the productDist objects instead - including NaiveBayesBernoulliDist, NaiveBayesGaussDist, MvnClassifierDist
 ----
 Predict for unconditional distributions (i.e. predict target nodes)
-----
-Mixture Distributions (fit via EM)
 ----
 Gibbs and variational EM for GMMs
 ----
