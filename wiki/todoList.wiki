@@ -21,33 +21,21 @@
 (7) Comment classes as time available
 
 ----
-HMM speech recognition demos (use generative models framework)
+
 ----
 HMM - fitting fully observed data & trellis prediction of future data
 ----
 implement the equation for "gamma2" using eqn 13.109
 ----
-Use get interceptors for distribution parameters - each distribution has a 
-params field, storing the parameters of the model. Calling m.params returns
-either a predefined joint distribution like NIG or a product dist in the case
-that the parameters factor. We want to support name driven access like m.params.mu
-and have it return the marginal distribution on mu. 
-----
-Add default getParams() support in probDist
-----
 Refactor generative classifiers to use the productDist objects instead - including NaiveBayesBernoulliDist, NaiveBayesGaussDist, MvnClassifierDist
 ----
 Predict for unconditional distributions (i.e. predict target nodes)
 ----
-Mixture of Gaussian's class with EM
+Mixture Distributions (fit via EM)
 ----
 Gibbs and variational EM for GMMs
 ----
 PMTK GUI proof of concept
-----
-Add fit/predict interface to Model Selection class.
-----
-rewrite demo Post Models Exhaustive using ModelSelection class
 ----
 Demo custom search function for Model Selection class
 ----
@@ -152,3 +140,10 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 ~~Add ProductDist super class and subclasses as needed to handle vectorized
 distributions - don't use non product distributions in this way anymore.~~
+----
+~~HMM speech recognition demos (use generative models framework)~~
+----
+~~Add fit/predict interface to Model Selection class.~~
+----
+~~rewrite demo Post Models Exhaustive using ModelSelection class~~
+----
