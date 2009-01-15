@@ -7,7 +7,7 @@ HMM - Refactor to use inference engine instead of trellis dist
 ----
 implement the equation for "gamma2" using eqn 13.109
 ----
-Demo custom search function for Model Dist class
+Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Finish SVM vs logreg demo 
 ----
