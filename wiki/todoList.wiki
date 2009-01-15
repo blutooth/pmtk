@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Mixture Distributions (fit via EM)
-----
 HMM - Refactor to use inference engine instead of trellis dist
 ----
 implement the equation for "gamma2" using eqn 13.109
@@ -117,3 +115,6 @@ distributions - don't use non product distributions in this way anymore.~~
 ----
 ~~Write a script to autogenerate an external source table:
 filename      url      author      modified~~
+----
+~~Mixture Distributions (fit via EM)~~
+----
