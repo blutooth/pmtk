@@ -9,10 +9,6 @@ implement the equation for "gamma2" using eqn 13.109
 ----
 Demo custom search function for Model Dist class
 ----
-Gibbs and variational EM for GMMs (Cody)
-----
-Comment demos and classes
-----
 Finish SVM vs logreg demo 
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
@@ -28,6 +24,8 @@ Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 PMTK GUI proof of concept
 ----
+
+Gibbs and variational EM for GMMs (Cody)
 
 *recently completed items*
 
