@@ -7,8 +7,6 @@ HMM - Refactor to use inference engine instead of trellis dist
 ----
 implement the equation for "gamma2" using eqn 13.109
 ----
-Naive Bayes Demos
-----
 Demo custom search function for Model Dist class
 ----
 Gibbs and variational EM for GMMs (Cody)
@@ -118,3 +116,4 @@ filename      url      author      modified~~
 ----
 ~~Mixture Distributions (fit via EM)~~
 ----
+~~Naive Bayes Demos~~
