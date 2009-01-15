@@ -9,8 +9,6 @@ implement the equation for "gamma2" using eqn 13.109
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
-Finish SVM vs logreg demo 
-----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?
 ----
@@ -19,6 +17,8 @@ KNN class
 speed up dist2 function via batch processing/bsxfun
 ----
 KNN demo (mnist performance as we vary the training set size)
+----
+Finish SVM vs logreg demo 
 ----
 Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
