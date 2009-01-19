@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-HMM - Refactor to use inference engine instead of trellis dist
-----
 implement the equation for "gamma2" using eqn 13.109
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
@@ -115,3 +113,5 @@ filename      url      author      modified~~
 ~~Mixture Distributions (fit via EM)~~
 ----
 ~~Naive Bayes Demos~~
+----
+~~HMM - Refactor to use inference engine instead of trellis dist~~
