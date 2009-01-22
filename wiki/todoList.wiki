@@ -3,6 +3,8 @@
 *This page stores a running list of current high priority development items.*
 
 ----
+Implement VarElimInfEng class
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
