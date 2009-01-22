@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-implement the equation for "gamma2" using eqn 13.109
-----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
@@ -87,6 +85,8 @@ Gibbs and variational EM for GMMs (Cody)
 ~~Add NonParamDist and ParamDist super classes~~
 ----
 ~~Refactor PMTK to remove VecDist,ScalarDist and MatrixDist superclasses~~
+----
+~~implement the equation for "gamma2" using eqn 13.109~~
 ----
 ~~Rename ndims method to ndimensions~~
 ----
