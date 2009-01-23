@@ -5,6 +5,8 @@
 ----
 Implement VarElimInfEng class
 ----
+Integrate Guillaume's fwdback C code
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
