@@ -3,6 +3,8 @@
 *This page stores a running list of current high priority development items.*
 
 ----
+Optimize factor multiplication and marginalization
+----
 Integrate Guillaume's fwdback C code
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
