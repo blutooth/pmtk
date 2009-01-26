@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Implement VarElimInfEng class
-----
 Integrate Guillaume's fwdback C code
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
@@ -119,3 +117,5 @@ filename      url      author      modified~~
 ~~Naive Bayes Demos~~
 ----
 ~~HMM - Refactor to use inference engine instead of trellis dist~~
+----
+~~Implement VarElimInfEng class~~
