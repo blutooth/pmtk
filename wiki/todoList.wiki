@@ -2,11 +2,7 @@
 
 *This page stores a running list of current high priority development items.*
 
-KNN class
-----
-speed up dist2 function via batch processing/bsxfun
-----
-KNN demo (mnist performance as we vary the training set size)
+
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
@@ -122,3 +118,8 @@ filename      url      author      modified~~
 ----
 ~~Integrate Guillaume's fwdback C code~~
 ----
+~~KNN class~~
+----
+~~speed up dist2 function via batch processing/bsxfun~~
+----
+~~KNN demo (mnist performance as we vary the training set size)~~
