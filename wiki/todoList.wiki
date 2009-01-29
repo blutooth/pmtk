@@ -19,7 +19,7 @@ Python port proof of concept
 ----
 Gibbs and variational EM for GMMs (Cody)
 
-*recently completed items*
+*recently completed items* (oldest to newest)
 
 ----
 ~~Use Bishop's data for logregDist.demoVisualizePredictive, use both L1, L2 and cross validate lambda~~
