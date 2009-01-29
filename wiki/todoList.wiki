@@ -2,7 +2,7 @@
 
 *This page stores a running list of current high priority development items.*
 
-
+Knn Demo 3-class predictive density plots for various K + softmax smoothing & local kernel weighting, etc. 
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
