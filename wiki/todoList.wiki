@@ -2,8 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-Knn Demo 3-class predictive density plots for various K + softmax smoothing & local kernel weighting, etc. 
-----
 Implement Junction Tree
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
@@ -129,3 +127,6 @@ filename      url      author      modified~~
 ~~KNN demo (mnist performance as we vary the training set size)~~
 ----
 ~~ Add soft evidence support to VarElimInfEng~~
+----
+~~Knn Demo 3-class predictive density plots for various K + softmax smoothing & local kernel weighting, etc.~~
+----
