@@ -2,7 +2,21 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-Implement Junction Tree
+Ensure that all the "interesting" demos are the in the examples directory, rather than being static methods
+----
+verify that the latest release of pmtk (1.3) can do runDemos with no errors.
+----
+check that you get the same results using FB on an HMM with Gaussian observations
+as you do running VarElim on a chain with MixMvn leaf nodes.
+----
+Make sure the FB code can work with directed and undirected chains (should give same results as VE)
+----
+Make that demo we discussed where you compute the marginal of a node, say X2, in a chain
+of length 5 and then of length 10. Do the directed and undirected version. You can use an arbitrary CPD/ potential for each edge (can be tied). Then verify that the legnth of the chain affects p(X2) in the UGM case but not the DGM case.
+----
+port the junction tree engine over from BNT.
+----
+currently I believe the VE code will not let you predict a hidden leaf node, even if it is discrete. This should be fixed... (If the leaf is a Gaussian, the prediction will be a mixture of Gaussians, one for each unobserved discrete parent setting.)
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
