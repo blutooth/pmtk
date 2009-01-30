@@ -1,7 +1,7 @@
 = PMTK TODO LIST =
 
 *This page stores a running list of current high priority development items.*
-
+----
 Knn Demo 3-class predictive density plots for various K + softmax smoothing & local kernel weighting, etc. 
 ----
 Implement Junction Tree
