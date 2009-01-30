@@ -4,6 +4,10 @@
 
 Knn Demo 3-class predictive density plots for various K + softmax smoothing & local kernel weighting, etc. 
 ----
+Implement Junction Tree
+----
+HMM class support for fitting when latent variables observed, not yet implemented.
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
@@ -123,3 +127,5 @@ filename      url      author      modified~~
 ~~speed up dist2 function via batch processing/bsxfun~~
 ----
 ~~KNN demo (mnist performance as we vary the training set size)~~
+----
+~~ Add soft evidence support to VarElimInfEng~~
