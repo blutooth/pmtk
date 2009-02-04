@@ -2,10 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-Find a solution for mex incompatibility issues.
-----
-make sure PMTK works on Linux
-----
 check that you get the same results using FB on an HMM with Gaussian observations
 as you do running VarElim on a chain with MixMvn leaf nodes.
 ----
@@ -147,3 +143,7 @@ filename      url      author      modified~~
 ~~Ensure that all the "interesting" demos are the in the examples directory, rather than being static methods~~
 ----
 ~~verify that the latest release of pmtk (1.3) can do runDemos with no errors.~~
+----
+~~Find a solution for mex incompatibility issues.~~
+----
+~~make sure PMTK works on Linux~~
