@@ -147,3 +147,10 @@ filename      url      author      modified~~
 ~~Find a solution for mex incompatibility issues.~~
 ----
 ~~make sure PMTK works on Linux~~
+----
+~~ add a makeTestPMTK script to auto-generate a testPMTK.m file~~
+----
+~~ Ensure that every demo has a title~~
+----
+~~ Clean up external authors report~~
+----
