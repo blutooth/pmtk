@@ -2,6 +2,9 @@
 
 *This page stores a running list of current high priority development items.*
 ----
+Problem with HMM marginal method when asking for two-slice marginals since its
+actually calculating xi_summed not xi. 
+----
 Make sure the FB code can work with directed and undirected chains (should give same results as VE)
 ----
 Make that demo we discussed where you compute the marginal of a node, say X2, in a chain
