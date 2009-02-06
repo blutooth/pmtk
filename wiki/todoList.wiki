@@ -2,9 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-check that you get the same results using FB on an HMM with Gaussian observations
-as you do running VarElim on a chain with MixMvn leaf nodes.
-----
 Make sure the FB code can work with directed and undirected chains (should give same results as VE)
 ----
 Make that demo we discussed where you compute the marginal of a node, say X2, in a chain
@@ -154,3 +151,5 @@ filename      url      author      modified~~
 ----
 ~~ Clean up external authors report~~
 ----
+~~check that you get the same results using FB on an HMM with Gaussian observations
+as you do running VarElim on a chain with MixMvn leaf nodes.~~
