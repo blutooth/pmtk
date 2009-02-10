@@ -153,5 +153,6 @@ filename      url      author      modified~~
 ----
 ~~check that you get the same results using FB on an HMM with Gaussian observations
 as you do running VarElim on a chain with MixMvn leaf nodes.~~
+----
 ~~Problem with HMM marginal method when asking for two-slice marginals since its
 actually calculating xi_summed not xi.~~
