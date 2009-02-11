@@ -157,3 +157,5 @@ actually calculating xi_summed not xi.~~
 ----
 ~~Make sure the FB code can work with directed and undirected chains (should give same results as VE)~~
 ----
+~~Make that demo we discussed where you compute the marginal of a node, say X2, in a chain of length 5 and then of length 10. Do the directed and undirected version. You can use an arbitrary CPD/ potential for each edge (can be tied). Then verify that the legnth of the chain affects p(X2) in the UGM case but not the DGM case.~~
+----
