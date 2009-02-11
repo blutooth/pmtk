@@ -9,8 +9,6 @@ of length 5 and then of length 10. Do the directed and undirected version. You c
 ----
 port the junction tree engine over from BNT.
 ----
-currently I believe the VE code will not let you predict a hidden leaf node, even if it is discrete. This should be fixed... (If the leaf is a Gaussian, the prediction will be a mixture of Gaussians, one for each unobserved discrete parent setting.)
-----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
@@ -156,3 +154,5 @@ as you do running VarElim on a chain with MixMvn leaf nodes.~~
 ----
 ~~Problem with HMM marginal method when asking for two-slice marginals since its
 actually calculating xi_summed not xi.~~
+----
+~~currently I believe the VE code will not let you predict a hidden leaf node, even if it is discrete. This should be fixed... (If the leaf is a Gaussian, the prediction will be a mixture of Gaussians, one for each unobserved discrete parent setting.)~~
