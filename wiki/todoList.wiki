@@ -2,9 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-Make that demo we discussed where you compute the marginal of a node, say X2, in a chain
-of length 5 and then of length 10. Do the directed and undirected version. You can use an arbitrary CPD/ potential for each edge (can be tied). Then verify that the legnth of the chain affects p(X2) in the UGM case but not the DGM case.
-----
 port the junction tree engine over from BNT.
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
