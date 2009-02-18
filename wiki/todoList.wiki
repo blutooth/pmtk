@@ -6,6 +6,10 @@ port the junction tree engine over from BNT.
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
+Add decision tree / random forest code to PMTK
+----
+PMTK web documentation
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
