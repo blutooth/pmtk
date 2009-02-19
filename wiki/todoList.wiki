@@ -8,7 +8,11 @@ HMM class support for fitting when latent variables observed, not yet implemente
 ----
 Add decision tree / random forest code to PMTK
 ----
-PMTK web documentation
+PMTK web documentation, + info for contributing programmers about tags etc
+----
+auto generated list of util functions like existing demo documentation
+----
+rename myfoo functions to fooPmtk
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
