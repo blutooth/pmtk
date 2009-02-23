@@ -14,6 +14,8 @@ auto generated list of util functions like existing demo documentation
 ----
 rename myfoo functions to fooPmtk
 ----
+add restricted / tied cov support for MVNs + demos
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
