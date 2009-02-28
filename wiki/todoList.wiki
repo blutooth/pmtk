@@ -2,6 +2,10 @@
 
 *This page stores a running list of current high priority development items.*
 ----
+Flatten the example directory
+----
+rename book code demoxxx files to xxxdemo
+----
 port the junction tree engine over from BNT.
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
