@@ -33,7 +33,6 @@ PMTK GUI proof of concept
 ----
 Python port proof of concept
 ----
-Gibbs and variational EM for GMMs (Cody)
 
 *recently completed items* (oldest to newest)
 
