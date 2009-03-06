@@ -3,8 +3,7 @@
 *This page stores a running list of current high priority development items.*
 ----
 Find a good way to have users fill out a form before downloading PMTK
-----
-Flatten the example directory
+(ready to set up for production use)
 ----
 rename book code demoxxx files to xxxdemo
 ----
@@ -173,3 +172,4 @@ actually calculating xi_summed not xi.~~
 ----
 ~~port the junction tree engine over from BNT.~~
 ----
+~~Flatten the example directory~~
