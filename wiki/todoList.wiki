@@ -5,6 +5,10 @@
 Find a good way to have users fill out a form before downloading PMTK
 (ready to set up for production use)
 ----
+Look into running compiled matlab on <http://aws.amazon.com/ec2/>
+----
+Remove the remaining inf engines
+----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Add decision tree / random forest code to PMTK
@@ -23,8 +27,6 @@ Look into auto lambda generation (smallest singular value heuristic? scaling by 
 lars?
 ----
 Finish SVM vs logreg demo 
-----
-Look into running compiled matlab on <http://aws.amazon.com/ec2/>
 ----
 PMTK GUI proof of concept
 ----
