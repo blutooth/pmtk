@@ -15,8 +15,6 @@ debug solaris errors
 ----
 auto generated list of util functions like existing demo documentation
 ----
-rename myfoo functions to fooPmtk
-----
 add restricted / tied cov support for MVNs + demos
 ----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
@@ -173,4 +171,6 @@ actually calculating xi_summed not xi.~~
 ~~Flatten the example directory~~
 ----
 ~~rename book code demoxxx files to xxxdemo~~
+----
+~~rename myfoo functions to fooPmtk~~
 ----
