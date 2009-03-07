@@ -5,8 +5,6 @@
 Find a good way to have users fill out a form before downloading PMTK
 (ready to set up for production use)
 ----
-rename book code demoxxx files to xxxdemo
-----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Add decision tree / random forest code to PMTK
@@ -173,3 +171,6 @@ actually calculating xi_summed not xi.~~
 ~~port the junction tree engine over from BNT.~~
 ----
 ~~Flatten the example directory~~
+----
+~~rename book code demoxxx files to xxxdemo~~
+----
