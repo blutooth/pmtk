@@ -2,8 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 
----- 
-misconception UGM demo does not work with jtree or var Elim, only Enum Inf.
 ----
 lingaussHybridDemo does not work with jtree
 ----
@@ -232,4 +230,6 @@ Which is correct? And why did it change?
 BOTH CORRECT - calculated marginal changed from X2 to X1~~
 ----
 ~~mvnSeqlUpdateMuSigma1D fails - maybe use Cody's new MvnIG class~~
+----
+~~misconception UGM demo does not work with jtree or var Elim, only Enum Inf.~~
 ----
