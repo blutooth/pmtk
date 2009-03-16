@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-lingaussHybridDemo does not work with jtree
-----
 inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
 Implement barren leaf functionality.
 (You can disallow queries on barren leafs for simplicity.)
@@ -232,4 +230,6 @@ BOTH CORRECT - calculated marginal changed from X2 to X1~~
 ~~JtreeInfEng should return logZ in its condition method; need to keep track
 of normalization constants on upwards pass to root, by analogy
 to forwards algo for HMM (see BNT code)~~
+----
+~~lingaussHybridDemo does not work with jtree~~
 ----
