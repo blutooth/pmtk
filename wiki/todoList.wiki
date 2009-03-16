@@ -214,7 +214,7 @@ actually calculating xi_summed not xi.~~
 ~~Find a good way to have users fill out a form before downloading PMTK
 (ready to set up for production use)~~
 ----
-~~Look into running compiled matlab on <http://aws.amazon.com/ec2/>~~
+~~Look into running compiled matlab on~~ <http://aws.amazon.com/ec2/>
 ----
 ~~Make sure rundemos runs without graphviz installed~~
 ----
