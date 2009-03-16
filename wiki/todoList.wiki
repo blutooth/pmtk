@@ -10,8 +10,7 @@ lingaussHybridDemo does not work with jtree
 inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
 Implement barren leaf functionality.
 (You can disallow queries on barren leafs for simplicity.)
-----
-mvnSeqlUpdateMuSigma1D fails - maybe use Cody's new MvnIG class?
+
 ----
 Regnerate the documentation
 ----
@@ -231,4 +230,6 @@ whereas it used to return
   [0.9863 0.8946 0.0137 0.5]
 Which is correct? And why did it change?
 BOTH CORRECT - calculated marginal changed from X2 to X1~~
+----
+~~mvnSeqlUpdateMuSigma1D fails - maybe use Cody's new MvnIG class~~
 ----
