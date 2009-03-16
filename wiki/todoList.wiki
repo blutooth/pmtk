@@ -22,10 +22,6 @@ Use the pmf() function in scripts to hide this.
 ----
 Automated aws scripts
 ----
-JtreeInfEng should return logZ in its condition method; need to keep track
-of normalization constants on upwards pass to root, by analogy
-to forwards algo for HMM (see BNT code)
----- 
 Implement forwards filtering backwards sampling for Jtree
 ---- 
 make a Markov chain class; use as class conditional density for sequence
@@ -232,4 +228,8 @@ BOTH CORRECT - calculated marginal changed from X2 to X1~~
 ~~mvnSeqlUpdateMuSigma1D fails - maybe use Cody's new MvnIG class~~
 ----
 ~~misconception UGM demo does not work with jtree or var Elim, only Enum Inf.~~
+----
+~~JtreeInfEng should return logZ in its condition method; need to keep track
+of normalization constants on upwards pass to root, by analogy
+to forwards algo for HMM (see BNT code)~~
 ----
