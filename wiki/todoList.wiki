@@ -221,3 +221,6 @@ actually calculating xi_summed not xi.~~
 ~~Write a download counter for PMTK~~
 ----
 ~~ Write a script to parse all of the PMTK e-mail addresses ~~
+----
+~~Demo & proof of concept processArgs in which both positional and named args are supported~~
+----
