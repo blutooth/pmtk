@@ -1,8 +1,9 @@
 = PMTK TODO LIST =
 
 *This page stores a running list of current high priority development items.*
+
 ---- 
-misconceptionUGMdemo does not work with jtree or varElim, only EnumInf.
+misconception UGM demo does not work with jtree or var Elim, only Enum Inf.
 ----
 lingaussHybridDemo does not work with jtree
 ----
