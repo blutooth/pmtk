@@ -25,8 +25,8 @@ Implement forwards filtering backwards sampling for Jtree
 make a Markov chain class; use as class conditional density for sequence
 classifcation
 ---- 
-make a LinearDynamicalSystemDist, class with Kalman filter/smoother
-for inference. Just port this code:
+make a LinearDynamicalSystemDist, class with Kalman filter smoother
+for inference. Just port this code
   {{{http://www.cs.ubc.ca/~murphyk/Software/Kalman/kalman.html}}}
 Check this gives the same results as GaussInfEng on the unrolled chain.
 ---- 
