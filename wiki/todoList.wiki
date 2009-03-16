@@ -2,12 +2,37 @@
 
 *This page stores a running list of current high priority development items.*
 ----
-Find a good way to have users fill out a form before downloading PMTK
-(ready to set up for production use)
+Fix the rest of the run demos & known bugs:
+ -misconceptionUGMdemo does not work with jtree or varElim, only EnumInf.
+- lingaussHybridDemo des not work with jtree
+- inheritedDiseaseVarElim does not work with jtree
+because of cts hidden leaf X1. Implement barren leaf functionality.
+(You can disallow queries on barren leafs for simplicity.)
+Also, it returns
+   0.9863    0.9933    0.0137    0.5000
+whereas it used to return
+  [0.9863 0.8946 0.0137 0.5]
+Which is correct? And why did it change?
 ----
-Look into running compiled matlab on <http://aws.amazon.com/ec2/>
+Automated aws scripts
 ----
-Remove the remaining inf engines
+JtreeInfEng should return logZ in its condition method; need to keep track
+of normalization constants on upwards pass to root, by analogy
+to forwards algo for HMM (see BNT code)
+---- 
+Implement forwards filtering backwards sampling for Jtree
+---- 
+make a Markov chain class; use as class conditional density for sequence
+classifcation
+---- 
+make a LinearDynamicalSystemDist, class with Kalman filter/smoother
+for inference. Just port this code:
+  http://www.cs.ubc.ca/~murphyk/Software/Kalman/kalman.html
+Check this gives the same results as GaussInfEng on the unrolled chain.
+---- 
+make a GaussFactor class, so that VarElim and Jtree will work on
+Gaussian graphs or discrete graphs. (Just port BNT's canonicalPot
+code.) Check that you get the same results as GaussInfEng.
 ----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
@@ -175,4 +200,12 @@ actually calculating xi_summed not xi.~~
 ~~rename book code demoxxx files to xxxdemo~~
 ----
 ~~rename myfoo functions to fooPmtk~~
+----
+~~Find a good way to have users fill out a form before downloading PMTK
+(ready to set up for production use)~~
+----
+~~Look into running compiled matlab on <http://aws.amazon.com/ec2/>~~
+----
+~~Make sure rundemos runs without graphviz installed~~
+----
 ----
