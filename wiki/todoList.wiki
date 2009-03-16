@@ -218,4 +218,5 @@ actually calculating xi_summed not xi.~~
 ----
 ~~Make sure rundemos runs without graphviz installed~~
 ----
+~~Write a download counter for PMTK~~
 ----
