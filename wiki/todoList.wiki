@@ -1,18 +1,14 @@
 = PMTK TODO LIST =
 
 *This page stores a running list of current high priority development items.*
+---- 
+misconceptionUGMdemo does not work with jtree or varElim, only EnumInf.
 ----
-Fix the rest of the run demos & known bugs:
- -misconceptionUGMdemo does not work with jtree or varElim, only EnumInf.
-- lingaussHybridDemo des not work with jtree
-- inheritedDiseaseVarElim does not work with jtree
-because of cts hidden leaf X1. Implement barren leaf functionality.
+lingaussHybridDemo does not work with jtree
+----
+inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
+Implement barren leaf functionality.
 (You can disallow queries on barren leafs for simplicity.)
-Also, it returns
-   0.9863    0.9933    0.0137    0.5000
-whereas it used to return
-  [0.9863 0.8946 0.0137 0.5]
-Which is correct? And why did it change?
 ----
 mvnSeqlUpdateMuSigma1D fails - maybe use Cody's new MvnIG class?
 ----
@@ -225,4 +221,13 @@ actually calculating xi_summed not xi.~~
 ~~ Write a script to parse all of the PMTK e-mail addresses ~~
 ----
 ~~Demo & proof of concept processArgs in which both positional and named args are supported~~
+----
+~~Fix the rest of the run demos~~
+----
+~~InheritedDiseaseeVarElim returns
+   0.9863    0.9933    0.0137    0.5000
+whereas it used to return
+  [0.9863 0.8946 0.0137 0.5]
+Which is correct? And why did it change?
+BOTH CORRECT - calculated marginal changed from X2 to X1~~
 ----
