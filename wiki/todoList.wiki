@@ -220,3 +220,4 @@ actually calculating xi_summed not xi.~~
 ----
 ~~Write a download counter for PMTK~~
 ----
+~~ Write a script to parse all of the PMTK e-mail addresses ~~
