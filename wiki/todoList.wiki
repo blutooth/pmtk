@@ -14,6 +14,16 @@ whereas it used to return
   [0.9863 0.8946 0.0137 0.5]
 Which is correct? And why did it change?
 ----
+Regnerate the documentation
+----
+I noticed in a few places code like this
+ 
+pred = predict(model,testData);              % pred is an object - a discrete distribution
+pclass1 = pred.mu(1,:)';
+This relies on knowing the name of the field is 'mu', which is not obvious.
+Probably best to rename this 'T' internally.
+Use the pmf() function in scripts to hide this.
+----
 Automated aws scripts
 ----
 JtreeInfEng should return logZ in its condition method; need to keep track
