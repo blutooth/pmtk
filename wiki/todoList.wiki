@@ -5,7 +5,7 @@
 ----
 streamline PMTK autodocumentation
 
--combine makeRunDemos & makeTestPMTK into one using includeTags and excludeTags controls
+-factor out common code in makeRunDemos & makeTestPMTK and use includeTags and excludeTags controls
 
 -use these tags with makeDocumentation
 
