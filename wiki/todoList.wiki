@@ -228,7 +228,7 @@ to forwards algo for HMM (see BNT code)~~
 ----
 ~~lingaussHybridDemo does not work with jtree~~
 ----
-inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
+~~inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
 Implement barren leaf functionality.
-(You can disallow queries on barren leafs for simplicity.)
+(You can disallow queries on barren leafs for simplicity.)~~
 ----
