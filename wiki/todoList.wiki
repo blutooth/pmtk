@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Regnerate the documentation
-----
 I noticed in a few places code like this
  
 pred = predict(model,testData);              % pred is an object - a discrete distribution
@@ -231,4 +229,6 @@ to forwards algo for HMM (see BNT code)~~
 ~~inheritedDiseaseVarElim does not work with jtree because of cts hidden leaf X1. 
 Implement barren leaf functionality.
 (You can disallow queries on barren leafs for simplicity.)~~
+----
+~~Regnerate the documentation~~
 ----
