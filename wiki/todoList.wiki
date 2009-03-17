@@ -23,8 +23,6 @@ Fix UgmTabularDist.convertToTabularFactors nstates bug
 ----
 Put VarElimInfEng continuous node query support back - but hide in a subfunction
 ----
-Automated aws scripts
-----
 Implement forwards filtering backwards sampling for Jtree
 ---- 
 make a Markov chain class; use as class conditional density for sequence
@@ -43,20 +41,22 @@ HMM class support for fitting when latent variables observed, not yet implemente
 ----
 Add decision tree / random forest code to PMTK
 ----
-PMTK web documentation, + info for contributing programmers about tags etc
-----
 debug solaris errors
 ----
 auto generated list of util functions like existing demo documentation
 ----
 add restricted / tied cov support for MVNs + demos
 ----
+Automated aws scripts
+----
+PMTK web documentation, + info for contributing programmers about tags etc
+----
 Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
 ----
 Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?
 ----
-Finish SVM vs logreg demo 
+Write an SVM class, (interface on svmlight)
 ----
 PMTK GUI proof of concept
 ----
