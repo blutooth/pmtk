@@ -3,6 +3,21 @@
 *This page stores a running list of current high priority development items.*
 
 ----
+streamline PMTK autodocumentation
+
+- combine makeRunDemos & makeTestPMTK into one using includeTags and excludeTags controls
+- use these tags with makeDocumentation
+- rename exclude list to excludeFnNameList
+- rename makeDocumentation to publishExamples
+- have it just walk over runDemos
+- have publishExamples also create author report, class diagram and PMTKversion.txt
+- rename PMTKdocsByFuncName.html to publishedExamples.html
+
+----
+Fix UgmTabularDist.convertToTabularFactors nstates bug
+----
+Put VarElimInfEng continuous node query support back - but hide in a subfunction
+----
 Automated aws scripts
 ----
 Implement forwards filtering backwards sampling for Jtree
