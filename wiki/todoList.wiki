@@ -1,7 +1,8 @@
 = PMTK TODO LIST =
 
 *This page stores a running list of current high priority development items.*
-
+----
+Fix Jtree logZ bug
 ----
 streamline PMTK autodocumentation
 
