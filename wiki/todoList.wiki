@@ -1,24 +1,7 @@
 = PMTK TODO LIST =
 
 *This page stores a running list of current high priority development items.*
-----
-Fix Jtree logZ bug
-----
-streamline PMTK autodocumentation
 
--factor out common code in makeRunDemos & makeTestPMTK and use includeTags and excludeTags controls
-
--use these tags with makeDocumentation
-
--rename exclude list to excludeFnNameList
-
--rename makeDocumentation to publishExamples
-
--have it just walk over runDemos
-
--have publishExamples also create author report, class diagram and PMTKversion.txt
-
--rename PMTKdocsByFuncName.html to publishedExamples.html
 ----
 Fix UgmTabularDist.convertToTabularFactors nstates bug
 ----
@@ -252,4 +235,23 @@ pclass1 = pred.mu(1,:)';
 This relies on knowing the name of the field is 'mu', which is not obvious.
 Probably best to rename this 'T' internally.
 Use the pmf() function in scripts to hide this.~~
+----
+----
+~~Fix Jtree logZ bug~~
+----
+~~streamline PMTK autodocumentation
+
+-factor out common code in makeRunDemos & makeTestPMTK and use includeTags and excludeTags controls
+
+-use these tags with makeDocumentation
+
+-rename exclude list to excludeFnNameList
+
+-rename makeDocumentation to publishExamples
+
+-have it just walk over runDemos
+
+-have publishExamples also create author report, class diagram and PMTKversion.txt
+
+-rename PMTKdocsByFuncName.html to publishedExamples.html~~
 ----
