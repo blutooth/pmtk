@@ -239,19 +239,19 @@ Use the pmf() function in scripts to hide this.~~
 ----
 ~~Fix Jtree logZ bug~~
 ----
-~~streamline PMTK autodocumentation
+~~streamline PMTK autodocumentation~~
 
--factor out common code in makeRunDemos & makeTestPMTK and use includeTags and excludeTags controls
+~~-factor out common code in makeRunDemos & makeTestPMTK and use includeTags and excludeTags controls~~
 
--use these tags with makeDocumentation
+~~-use these tags with makeDocumentation~~
 
--rename exclude list to excludeFnNameList
+~~-rename exclude list to excludeFnNameList~~
 
--rename makeDocumentation to publishExamples
+~~-rename makeDocumentation to publishExamples~~
 
--have it just walk over runDemos
+~~-have it just walk over runDemos~~
 
--have publishExamples also create author report, class diagram and PMTKversion.txt
+~~-have publishExamples also create author report, class diagram and PMTKversion.txt~~
 
--rename PMTKdocsByFuncName.html to publishedExamples.html~~
+~~-rename PMTKdocsByFuncName.html to publishedExamples.html~~
 ----
