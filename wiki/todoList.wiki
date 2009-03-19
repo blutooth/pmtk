@@ -29,7 +29,7 @@ debug solaris errors
 ----
 auto generated list of util functions like existing demo documentation
 ----
-add restricted / tied cov support for MVNs + demos
+add tied cov support for MVNs + demos
 ----
 Automated aws scripts
 ----
