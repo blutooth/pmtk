@@ -3,8 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Fix UgmTabularDist.convertToTabularFactors nstates bug
-----
 Put VarElimInfEng continuous node query support back - but hide in a subfunction
 ----
 Implement forwards filtering backwards sampling for Jtree
@@ -255,3 +253,4 @@ Use the pmf() function in scripts to hide this.~~
 
 ~~-rename PMTKdocsByFuncName.html to publishedExamples.html~~
 ----
+~~Fix UgmTabularDist.convertToTabularFactors nstates bug~~
