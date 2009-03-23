@@ -5,7 +5,7 @@
 ----
 Implement forwards filtering backwards sampling for Jtree
 ---- 
-make a Markov chain class; use as class conditional density for sequence
+make a Markov chain class to use as class conditional density for sequence
 classifcation
 ---- 
 make a LinearDynamicalSystemDist, class with Kalman filter smoother
