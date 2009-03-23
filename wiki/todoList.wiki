@@ -3,11 +3,11 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Implement forwards filtering backwards sampling for Jtree
+Implement forwards filtering backwards sampling for Jtree.
 
 ---- 
 make a Markov chain class to use as class conditional density for sequence
-classifcation
+classifcation.
 
 ---- 
 make a LinearDynamicalSystemDist, class with Kalman filter smoother
