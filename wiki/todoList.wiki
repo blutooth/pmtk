@@ -6,24 +6,18 @@
 -----
 Implement forwards filtering backwards sampling for Jtree.
 -----
-
 Make a Markov chain class to use as class conditional density for sequence
 classifcation.
-
----- 
-
+-----
 Make a Linear Dynamical System Dist, class with Kalman filter smoother
 for inference. Just port this code
   www.cs.ubc.ca ~murphyk Software Kalman kalman.html
 Check this gives the same results as GaussInfEng on the unrolled chain.
-
----- 
-
+----- 
 Make a GaussFactor class, so that VarElim and Jtree will work on
 Gaussian graphs or discrete graphs. (Just port BNT's canonicalPot
 code.) Check that you get the same results as GaussInfEng.
-
-----
+-----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Add decision tree / random forest code to PMTK
