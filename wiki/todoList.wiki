@@ -12,7 +12,7 @@ classifcation
 ---- 
 make a LinearDynamicalSystemDist, class with Kalman filter smoother
 for inference. Just port this code
-  {{{http://www.cs.ubc.ca/~murphyk/Software/Kalman/kalman.html}}}
+  http://www.cs.ubc.ca/~murphyk/Software/Kalman/kalman.html
 Check this gives the same results as GaussInfEng on the unrolled chain.
 
 ---- 
