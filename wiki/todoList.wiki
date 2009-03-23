@@ -14,6 +14,8 @@ for inference. Just port this code
   www.cs.ubc.ca ~murphyk Software Kalman kalman.html
 Check this gives the same results as Gauss Inf Eng on the unrolled chain.
 ------ 
+
+
 Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. (Just port BNT's canonical Pot
 code.) Check that you get the same results as Gauss Inf Eng.
