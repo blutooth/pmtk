@@ -9,18 +9,18 @@ Implement forwards filtering backwards sampling for Jtree.
 
 ---- 
 
-make a Markov chain class to use as class conditional density for sequence
+Make a Markov chain class to use as class conditional density for sequence
 classifcation.
 
 ---- 
 
-make a LinearDynamicalSystemDist, class with Kalman filter smoother
+Make a LinearDynamicalSystemDist, class with Kalman filter smoother
 for inference. Just port this code
   http://www.cs.ubc.ca/~murphyk/Software/Kalman/kalman.html
 Check this gives the same results as GaussInfEng on the unrolled chain.
 
 ---- 
-make a GaussFactor class, so that VarElim and Jtree will work on
+Make a GaussFactor class, so that VarElim and Jtree will work on
 Gaussian graphs or discrete graphs. (Just port BNT's canonicalPot
 code.) Check that you get the same results as GaussInfEng.
 ----
