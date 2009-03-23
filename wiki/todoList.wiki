@@ -11,7 +11,7 @@ classifcation.
 -----
 Make a Linear Dynamical System Dist, class with Kalman filter smoother
 for inference. Just port this code
-  www.cs.ubc.ca ~murphyk Software Kalman kalman.html
+  www.cs.ubc.ca murphyk Software Kalman kalman.html
 Check this gives the same results as Gauss Inf Eng on the unrolled chain.
 ------ 
 
