@@ -2,9 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 
-
------
-Implement forwards filtering backwards sampling for Jtree.
 -----
 Make a Markov chain class to use as class conditional density for sequence
 classifcation.
@@ -256,4 +253,6 @@ Use the pmf() function in scripts to hide this.~~
 ~~Fix GM errors when domain is not 1:d~~
 ----
 ~~Put VarElimInfEng continuous node query support back - but hide in a subfunction~~
+----
+~~Implement forwards filtering backwards sampling for Jtree.~~
 ----
