@@ -3,9 +3,7 @@
 *This page stores a running list of current high priority development items.*
 
 -----
-Make a Linear Dynamical System Dist, class with Kalman filter smoother
-for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalman.html
-Check this gives the same results as Gauss Inf Eng on the unrolled chain.
+Check that the new Linear Dynamical System Dist code gives the same results as Gauss Inf Eng on the unrolled chain.
 ----
 Automated aws scripts
 ----
@@ -258,4 +256,7 @@ Use the pmf() function in scripts to hide this.~~
 ----
 ~~Make a Markov chain class to use as class conditional density for sequence
 classifcation.~~
+----
+~~Make a Linear Dynamical System Dist, class with Kalman filter smoother
+for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalman.html~~
 ----
