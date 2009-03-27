@@ -7,6 +7,11 @@ Make a Linear Dynamical System Dist, class with Kalman filter smoother
 for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalman.html
 Check this gives the same results as Gauss Inf Eng on the unrolled chain.
 ----
+Automated aws scripts
+----
+Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
+Troubleshoot reported cancerRatesEb bug. 
+----
 Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. Just port BNT's canonical Pot
 code. Check that you get the same results as Gauss Inf Eng.
@@ -20,8 +25,6 @@ debug solaris errors
 auto generated list of util functions like existing demo documentation
 ----
 add tied cov support for MVNs + demos
-----
-Automated aws scripts
 ----
 PMTK web documentation, + info for contributing programmers about tags etc
 ----
