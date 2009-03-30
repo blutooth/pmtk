@@ -7,6 +7,22 @@ Check that the new Linear Dynamical System Dist code gives the same results as G
 ----
 Automated aws scripts
 ----
+Create a a function that could walk over the code
+and produce a table (latex or html) where rows are methods and columns are
+classes (or vice versa), and there is a check mark
+if the class implements the method and an x otherwise.
+In the html version, clicking on the check mark could bring up the source.
+----
+it would be useful if we could infer the type signature of methods.
+Perhaps your new processArgs will make this easier?
+----
+Some of the functions rely on certain fields in the model being set,
+eg when calling p=marginal(model), the field model.infEngine must be defined.
+Similarly when calling fit, the fitMethod must be defined.
+I wonder if we can put some %# mechanism in so that
+the method can be automatically annotated as requiring that certain fields
+be predefined.
+----
 Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
 Troubleshoot reported cancerRatesEb bug. 
 ----
