@@ -26,6 +26,10 @@ be predefined.
 Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
 Troubleshoot reported cancerRatesEb bug. 
 ----
+I think we should make NaiveBayesBernoulli a subclass of GenerativeClassifier
+whose implementation is just a few lines long. This can be a placeholder
+for specialized implementations.
+----
 Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. Just port BNT's canonical Pot
 code. Check that you get the same results as Gauss Inf Eng.
