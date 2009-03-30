@@ -2,8 +2,6 @@
 
 *This page stores a running list of current high priority development items.*
 
------
-Check that the new Linear Dynamical System Dist code gives the same results as Gauss Inf Eng on the unrolled chain.
 ----
 Automated aws scripts
 ----
@@ -34,6 +32,8 @@ Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. Just port BNT's canonical Pot
 code. Check that you get the same results as Gauss Inf Eng.
 -----
+Check that the new Linear Dynamical System Dist code gives the same results as Gauss Inf Eng on the unrolled chain.
+----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Add decision tree / random forest code to PMTK
