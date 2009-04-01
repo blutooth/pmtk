@@ -21,6 +21,20 @@ I wonder if we can put some %# mechanism in so that
 the method can be automatically annotated as requiring that certain fields
 be predefined.
 ----
+The other thing: VarElimInfEng calls best_first_elim_order,
+whereas JtreeInfEng calls ChordalGraph which calls minWeightElimOrder.
+These are basically the same functions and should be merged.
+It seems that minWeight is the simpler of the two, since it does not have any of that
+time-stamp / stages stuff that I added to handle DBNs. 
+
+One detail you will have to deal with is the
+difference between passing in node weights (=log number of states) and number of states (node sizes).
+Currently when we call ChordalGraph we do not specify the nunber of states, so it
+just adds up the weight of a clique, which is equal to the number of nodes in it; this is fine.
+When we call VarElim, we know the numstates, so we multiply them to get the weight
+of a clique, which is also fine. But if you make VarElim call minWeight, you will have
+to set weight=log(nstates).
+----
 Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
 Troubleshoot reported cancerRatesEb bug. 
 ----
