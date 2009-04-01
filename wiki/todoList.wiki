@@ -38,6 +38,8 @@ to set weight=log(nstates).
 Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
 Troubleshoot reported cancerRatesEb bug. 
 ----
+ModelDist waitbar fails on some machines/configurations but not others
+----
 I think we should make NaiveBayesBernoulli a subclass of GenerativeClassifier
 whose implementation is just a few lines long. This can be a placeholder
 for specialized implementations.
