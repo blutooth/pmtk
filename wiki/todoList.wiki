@@ -34,6 +34,8 @@ code. Check that you get the same results as Gauss Inf Eng.
 -----
 Check that the new Linear Dynamical System Dist code gives the same results as Gauss Inf Eng on the unrolled chain.
 ----
+Change deptoolbox to use Graphlayout instead of biograph
+----
 HMM class support for fitting when latent variables observed, not yet implemented.
 ----
 Add decision tree / random forest code to PMTK
