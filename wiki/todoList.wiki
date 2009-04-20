@@ -3,11 +3,6 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-- objectCreationTest fails 
-because loadPMTK does not add Old directories to the path,
-but objectCreationTest still knows about them...
-(it works if you manually add MixOld to the path). This should be easy to fix.
-
 - hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
 
 - All the other testPMTK functions run, but please check that all demos run
@@ -322,3 +317,7 @@ for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalma
 ----
 ~~changes to processArgs~~
 ----
+- objectCreationTest fails 
+~~because loadPMTK does not add Old directories to the path,
+but objectCreationTest still knows about them...
+(it works if you manually add MixOld to the path). This should be easy to fix.~~
