@@ -3,7 +3,18 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-Automated aws scripts
+- objectCreationTest fails 
+because loadPMTK does not add Old directories to the path,
+but objectCreationTest still knows about them...
+(it works if you manually add MixOld to the path). This should be easy to fix.
+
+- hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
+
+- All the other testPMTK functions run, but please check that all demos run
+
+- factor out the EM code from the HMM class, by analogy to the mixtures code.
+
+- make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
 ----
 Please can you make sure my new MixMvnEm works, and then change all the demos 
 that call the old MvnMixDist or MixtureDist (except for Cody's 2 galaxy examples) to use the new MixtureModel,
@@ -306,4 +317,8 @@ classifcation.~~
 ----
 ~~Make a Linear Dynamical System Dist, class with Kalman filter smoother
 for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalman.html~~
+----
+~~Amazon aws matlab interface + cluster config~~
+----
+~~changes to processArgs~~
 ----
