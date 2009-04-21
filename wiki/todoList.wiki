@@ -49,8 +49,6 @@ for specialized implementations.
 Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. Just port BNT's canonical Pot
 code. Check that you get the same results as Gauss Inf Eng.
------
-Check that the new Linear Dynamical System Dist code gives the same results as Gauss Inf Eng on the unrolled chain.
 ----
 Change deptoolbox to use Graphlayout instead of biograph
 ----
