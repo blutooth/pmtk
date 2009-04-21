@@ -3,6 +3,7 @@
 *This page stores a running list of current high priority development items.*
 
 ----
+
 - hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
 
 - All the other testPMTK functions run, but please check that all demos run
@@ -17,8 +18,7 @@ MixDiscrete or MixMvnEm code. Thanks.
 (Eventually I will merge Cody's mcmc code into the new paradigm, but I still need to think through a few design issues.
 Meanwhile we'll leave all the old mixtures code in place but not call it, except for mcmc.)
 
-Also, please do a 'testPMTK' run - I haven't done it in a while, and I know I made a few changes to some constructors
-last week, which may have broken a few things ...
+
 ----
 Create a a function that could walk over the code
 and produce a table (latex or html) where rows are methods and columns are
@@ -321,3 +321,6 @@ for inference. Just port this code:  www.cs.ubc.ca murphyk Software Kalman kalma
 ~~because loadPMTK does not add Old directories to the path,
 but objectCreationTest still knows about them...
 (it works if you manually add MixOld to the path). This should be easy to fix.~~
+----
+~~Also, please do a 'testPMTK' run - I haven't done it in a while, and I know I made a few changes to some constructors
+last week, which may have broken a few things ...~~
