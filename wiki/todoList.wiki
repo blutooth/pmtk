@@ -3,13 +3,10 @@
 *This page stores a running list of current high priority development items.*
 
 ----
-
 - hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
-
-- All the other testPMTK functions run, but please check that all demos run
-
+----
 - factor out the EM code from the HMM class, by analogy to the mixtures code.
-
+----
 - make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
 ----
 Please can you make sure my new MixMvnEm works, and then change all the demos 
@@ -324,3 +321,5 @@ but objectCreationTest still knows about them...
 ----
 ~~Also, please do a 'testPMTK' run - I haven't done it in a while, and I know I made a few changes to some constructors
 last week, which may have broken a few things ...~~
+----
+~~- All the other testPMTK functions run, but please check that all demos run~~
