@@ -9,14 +9,6 @@
 ----
 - make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
 ----
-Please can you make sure my new MixMvnEm works, and then change all the demos 
-that call the old MvnMixDist or MixtureDist (except for Cody's 2 galaxy examples) to use the new MixtureModel,
-MixDiscrete or MixMvnEm code. Thanks.
-(Eventually I will merge Cody's mcmc code into the new paradigm, but I still need to think through a few design issues.
-Meanwhile we'll leave all the old mixtures code in place but not call it, except for mcmc.)
-
-
-----
 Create a a function that could walk over the code
 and produce a table (latex or html) where rows are methods and columns are
 classes (or vice versa), and there is a check mark
@@ -323,3 +315,9 @@ but objectCreationTest still knows about them...
 last week, which may have broken a few things ...~~
 ----
 ~~- All the other testPMTK functions run, but please check that all demos run~~
+----
+~~Please can you make sure my new MixMvnEm works, and then change all the demos 
+that call the old MvnMixDist or MixtureDist (except for Cody's 2 galaxy examples) to use the new MixtureModel,
+MixDiscrete or MixMvnEm code. Thanks.
+(Eventually I will merge Cody's mcmc code into the new paradigm, but I still need to think through a few design issues.
+Meanwhile we'll leave all the old mixtures code in place but not call it, except for mcmc.)~~
