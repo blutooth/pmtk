@@ -2,18 +2,19 @@
 
 *This page stores a running list of current high priority development items.*
 
-----
-- hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
-----
-- factor out the EM code from the HMM class, by analogy to the mixtures code.
-----
-- make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
+Final amazon aws tweaks
 ----
 Create a a function that could walk over the code
 and produce a table (latex or html) where rows are methods and columns are
 classes (or vice versa), and there is a check mark
 if the class implements the method and an x otherwise.
 In the html version, clicking on the check mark could bring up the source.
+----
+- hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
+----
+- factor out the EM code from the HMM class, by analogy to the mixtures code.
+----
+- make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
 ----
 it would be useful if we could infer the type signature of methods.
 Perhaps your new processArgs will make this easier?
