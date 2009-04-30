@@ -10,6 +10,8 @@ classes (or vice versa), and there is a check mark
 if the class implements the method and an x otherwise.
 In the html version, clicking on the check mark could bring up the source.
 ----
+PMTK Unit Testing Framework
+----
 - hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
 ----
 - factor out the EM code from the HMM class, by analogy to the mixtures code.
@@ -64,11 +66,6 @@ auto generated list of util functions like existing demo documentation
 add tied cov support for MVNs + demos
 ----
 PMTK web documentation, + info for contributing programmers about tags etc
-----
-Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.
-----
-Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
-lars?
 ----
 Write an SVM class, (interface on svmlight)
 ----
@@ -320,3 +317,7 @@ MixDiscrete or MixMvnEm code. Thanks.
 Meanwhile we'll leave all the old mixtures code in place but not call it, except for mcmc.)~~
 ----
 ~~ModelDist waitbar fails on some machines/configurations but not others~~
+----
+~~Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
+lars?~~
+~~Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.~~
