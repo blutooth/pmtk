@@ -2,13 +2,14 @@
 
 *This page stores a running list of current high priority development items.*
 
-Final amazon aws tweaks
 ----
 Create a a function that could walk over the code
 and produce a table (latex or html) where rows are methods and columns are
 classes (or vice versa), and there is a check mark
 if the class implements the method and an x otherwise.
 In the html version, clicking on the check mark could bring up the source.
+----
+Option in viewClassTree to split up the tree into subtrees to be viewed in separate figures. 
 ----
 PMTK Unit Testing Framework
 ----
@@ -321,3 +322,5 @@ Meanwhile we'll leave all the old mixtures code in place but not call it, except
 ~~Look into auto lambda generation (smallest singular value heuristic? scaling by N, 
 lars?~~
 ~~Demo custom search function for Model Dist class - clean up class and add Bayes model averaging.~~
+~~Final amazon aws tweaks~~
+----
