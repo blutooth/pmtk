@@ -13,12 +13,6 @@ Option in viewClassTree to split up the tree into subtrees to be viewed in separ
 ----
 PMTK Unit Testing Framework
 ----
-- hmmDistTest calls MixMvn, but does not work, because of some small change in the new interface.
-----
-- factor out the EM code from the HMM class, by analogy to the mixtures code.
-----
-- make HMM/condition/sample etc be stateless, as in MvnDist and GmDist (ask me if it is not clear what I mean by this).
-----
 it would be useful if we could infer the type signature of methods.
 Perhaps your new processArgs will make this easier?
 ----
@@ -28,6 +22,24 @@ Similarly when calling fit, the fitMethod must be defined.
 I wonder if we can put some %# mechanism in so that
 the method can be automatically annotated as requiring that certain fields
 be predefined.
+----
+PMTK web documentation, + info for contributing programmers about tags etc
+----
+Change deptoolbox to use Graphlayout instead of biograph
+----
+Add decision tree / random forest code to PMTK
+----
+debug solaris errors
+----
+auto generated list of util functions like existing demo documentation
+----
+add tied cov support for MVNs + demos
+----
+Write an SVM class, (interface on svmlight)
+----
+PMTK GUI proof of concept
+----
+factor out the EM code from the HMM class, by analogy to the mixtures code.
 ----
 The other thing: VarElimInfEng calls best_first_elim_order,
 whereas JtreeInfEng calls ChordalGraph which calls minWeightElimOrder.
@@ -43,9 +55,6 @@ When we call VarElim, we know the numstates, so we multiply them to get the weig
 of a clique, which is also fine. But if you make VarElim call minWeight, you will have
 to set weight=log(nstates).
 ----
-Make oldFaithfulDemo produce the same figures that bookcode/gmmOldFaithful used to. 
-Troubleshoot reported cancerRatesEb bug. 
-----
 I think we should make NaiveBayesBernoulli a subclass of GenerativeClassifier
 whose implementation is just a few lines long. This can be a placeholder
 for specialized implementations.
@@ -54,26 +63,8 @@ Make a Gauss Factor class, so that Var Elim and Jtree will work on
 Gaussian graphs or discrete graphs. Just port BNT's canonical Pot
 code. Check that you get the same results as Gauss Inf Eng.
 ----
-Change deptoolbox to use Graphlayout instead of biograph
-----
-HMM class support for fitting when latent variables observed, not yet implemented.
-----
-Add decision tree / random forest code to PMTK
-----
-debug solaris errors
-----
-auto generated list of util functions like existing demo documentation
-----
-add tied cov support for MVNs + demos
-----
-PMTK web documentation, + info for contributing programmers about tags etc
-----
-Write an SVM class, (interface on svmlight)
-----
-PMTK GUI proof of concept
-----
-Python port proof of concept
-----
+
+
 
 *recently completed items* (oldest to newest)
 
